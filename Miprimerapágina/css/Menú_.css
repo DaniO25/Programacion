@@ -1,0 +1,34 @@
+nav{
+    background-color: rgb(212, 47, 18);
+    color: white;
+}
+
+.menú{
+    display: flex;
+    align-items: center;
+}
+
+.menú li{
+    width: 20%;
+    list-style: none;
+}
+
+.menú a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+.logo{
+    flex-grow: 3;
+}
+
+.logo img{
+    width: 25%;
+}
+
+.menú a:hover{
+    background-color: white;
+    color: rgb(212, 47, 18);
+    border: 7px black solid;
+    border-radius: 5px;
+}

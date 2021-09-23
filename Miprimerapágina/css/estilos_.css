@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{
+    background-color: rgb(212, 47, 18);
+    color: black;
+    height: 40px;
+    text-align: center;
+}
+
+footer h3{
+    padding-top: 1%;
+}
+
+.container{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1%;
+}
+
+body{
+    background-color: rgba(255, 0, 0, 0.144);
+}
+
+header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: rgb(212, 47, 18) solid 5px;
+    border-radius: 50px;
+}
+
+.section-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.personajes{
+    width: 30%;
+    margin: 1%;
+    border: 3px rgb(212, 47, 18) solid;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.personajes img{
+    font-weight: 200;
+    width: 200px;
+    border-radius: 50px;
+}
+
+.personajes h4{
+    background-color: rgba(255, 255, 255, 0.301);
+}

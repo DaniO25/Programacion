@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./Menú.css">
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <nav id="menú">
+        <ul class="menú">
+            <li class="logo">
+                <a href="">
+                    <img src="./Luka-Viperion.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">Escolares</a>
+            </li>
+            <li>
+                <a href="">De personalidad</a>
+            </li>
+            <li>
+                <a href="">Divertidos</a>
+            </li>
+        </ul>
+    </nav>
+    <div>
+        <section><header>
+            <h2>Formulario</h2>
+        </header></section>
+    <section><form action="Formulario" method="get" autocomplete >
+        <article class="nombre_apellido">
+            <h3>Inserta tu(s) nombre(s)</h3>
+            <label form="nombre"></label>
+            <input name="nombre" type="text" value="" placeholder="Nombres">
+        </article>
+        <br>
+        <article class="nombre_apellido">
+            <h3>Inserta tus apellidos</h3>
+            <label form="apellido"></label>
+            <input name="apellido" type="text" value="" placeholder="Apellidos">
+        </article>
+        <br>
+        <article>
+            <h3>Género</h3>
+            <input type="radio" name="gender" value="masculino" checked> Masculino
+            <br>
+            <input type="radio" name="gender" value="femenino"> Femenino
+        </article>
+        <br>
+        <article>
+            <h3>¿Entre cuál rango de edad te encuentras?</h3>
+            <label form="Rangos">Rangos:</label>
+            <select name="Rangos">
+                <option value="0-10">0-10</option>
+                <option value="11-20">11-20</option>
+                <option value="21-30">21-30</option>
+                <option value="31-40">31-40</option>
+                <option value="41-50">41-50</option>
+                <option value="51 en adelante">51 en adelante</option>
+            </select>
+        </article>
+        <br>
+        <article>
+            <h3>¿En cuáles vehículos te transportas normalmente?</h3>
+            <input type="checkbox" name="vehicle1" value="Automóvil"> Automóvil<br>
+            <input type="checkbox" name="vehicle2" value="Motocicleta"> Motocicleta<br>
+            <input type="checkbox" name="vehicle3" value="Autobus"> Autobus<br>
+            <input type="checkbox" name="vehicle4" value="Bicicleta"> Bicicleta<br>
+            <input type="checkbox" name="vehicle5" value="Monociclo"> Monociclo
+        </article>
+        <br>
+        <article>
+            <h3>Muéstrame un color que te guste</h3>
+            <label form="color">Color:</label>
+            <input type="color" name="favcolor">
+        </article>
+        <br>
+        <article>
+            <h3>¿Cuándo naciste?</h3>
+            <label form="date"></label>
+            <input type="date" name="bday" min="2000-01-02">
+        </article>
+        <br>
+        <article>
+            <h3>¿Cuántos años tienes actualmente?</h3>
+            <label form="number">Edad:</label>
+            <input type="number" name="quantity" min="1">
+        </article>
+        <br>
+        <article>
+        <input type="submit" value="Submit">
+        </article>
+    </form></section>
+    </div>
+    <br>
+</body>
+<footer>
+    <p>
+        <h4>Creado por Daniela Sofía Ordoñez Arciniegas</h4>
+    </p>
+</footer>
+</html>
